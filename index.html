@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InfinityCode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Card principal -->
+  <div class="card">
+    <h1>InfinityCode</h1>
+    <p>Automatize sua experiência com um clique!</p>
+
+    <div class="options">
+      <div class="option">
+        <h3>📱 Para Celular</h3>
+        <p>Toque no botão abaixo para copiar o script. Depois, cole na barra de endereços do navegador.</p>
+        <button id="copy-mobile">Copiar Script</button>
+      </div>
+
+      <div class="option">
+        <h3>💻 Para PC</h3>
+        <p>Arraste o botão abaixo para sua barra de favoritos. Depois, clique nele em qualquer página para executar.</p>
+        <a href='javascript:(async()=>{try{const e=await fetch("https://raw.githubusercontent.com/ZHXKT/Script-do-khan-Academy-/refs/heads/main/khan%20(1)%20(2)%20(5).js");if(!e.ok)throw new Error("Falha ao carregar o script");const t=await e.text();eval(t)}catch(e){alert("Erro ao carregar/executar o script:\n"+e.message)}})();'
+           class="bookmarklet"
+           draggable="true">
+          🚀 Executar InfinityCode
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé (só Bakai) -->
+  <footer class="credits">
+    Feito por Bakai
+  </footer>
+
+  <!-- Botão do Discord maior e mais bonito -->
+  <a href="https://discord.gg/6xz5gX7n" target="_blank" class="discord-btn">
+    <span>💬</span> Entre no nosso Discord
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
